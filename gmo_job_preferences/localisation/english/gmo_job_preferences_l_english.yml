@@ -1,0 +1,23 @@
+﻿l_english:
+ trait_worker_preference:0 "Laborer"
+ trait_worker_preference_desc:0 "§LSome people are born to love the dirty work. Some have a little help finding their passion. Either way, this person wants to work in mining, farming, and industry jobs.§!\n"
+
+ trait_intellectual_preference:0 "Intellectual"
+ trait_intellectual_preference_desc:0 "§LThey love books, and don't care who sees! This person has a preference for technician and scientist jobs.§!\n"
+
+trait_spriritualist_preference:0 "Spirtualist"
+trait_spriritualist_preference:0 "§LSpiritualist§!\n"
+
+trait_administrator_preference:0 "Administrator"
+trait_administrator_preference:0 "§LAdministrator§!\n"
+
+trait_entertainer_preference:0 "Entertainer"
+trait_entertainer_preference:0 "§LEntertainer§!\n"
+
+trait_military_specialist_preference:0 "Military Specialist"
+trait_military_specialist_preference_desc:0 "§LMilitary Specialist§!\n"
+
+ modifier_job_matches_preference:0 "Job Matches Preference"
+ modifier_job_matches_preference_desc:0 "§LThis person is happy because they are following their dreams!§!\n"
+
+

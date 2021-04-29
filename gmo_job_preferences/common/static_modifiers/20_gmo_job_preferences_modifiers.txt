@@ -1,0 +1,3 @@
+modifier_job_matches_preference = {
+	pop_happiness = .1
+}

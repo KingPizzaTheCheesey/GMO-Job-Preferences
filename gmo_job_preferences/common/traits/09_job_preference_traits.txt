@@ -1,0 +1,116 @@
+# Custom Job Preference Traits
+# No cost for traits yet.
+
+trait_worker_preference = {
+	cost = 1
+	allowed_archetypes = { BIOLOGICAL LITHOID }
+
+	modifier = {
+		modifier_job_matches_preference = .1
+	}
+
+	opposites = {
+		"trait_intellectual_preference"
+		"trait_spiritualist_preference"
+		"trait_administrator_preference"
+		"trait_entertainer_preference"
+		"trait_military_specialist_preference"
+	}
+	
+	#icon = "gfx/interface/icons/traits/trait_industrious.dds"
+	#custom_tooltip = trait_worker_preference_effect
+}
+
+trait_intellectual_preference = { 
+	cost = 1
+	allowed_archetypes = { BIOLOGICAL LITHOID }
+
+	modifier = {
+		modifier_job_matches_preference = .1
+	}
+
+	opposites = {
+		"trait_worker_preference"
+		"trait_spiritualist_preference"
+		"trait_administrator_preference"
+		"trait_entertainer_preference"
+		"trait_military_specialist_preference"
+	}
+	
+	#icon = "gfx/interface/icons/traits/trait_ingenious.dds"
+	#custom_tooltip = trait_intellectual_preference_effect
+}
+
+trait_spiritualist_preference = {
+	cost = 1
+	allowed_archetypes = { BIOLOGICAL LITHOID }
+
+	modifier = {
+		modifier_job_matches_preference = .1
+	}
+
+	opposites = {
+		"trait_intellectual_preference"
+		"trait_worker_preference"
+		"trait_administrator_preference"
+		"trait_entertainer_preference"
+		"trait_military_specialist_preference"
+	}
+	
+	#icon = "gfx/interface/icons/traits/trait_agrarian.dds"
+	#custom_tooltip = trait_service_prefence_effect
+}
+
+trait_administrator_preference = {
+	cost = 1
+	allowed_archetypes = { BIOLOGICAL LITHOID }
+
+	modifier = {
+		modifier_job_matches_preference = .1
+	}
+
+	opposites = {
+		"trait_intellectual_preference"
+		"trait_worker_preference"
+		"trait_spiritualist_preference"
+		"trait_entertainer_preference"
+		"trait_military_specialist_preference"
+	}
+
+}
+
+trait_entertainer_preference = {
+	cost = 1
+	allowed_archetypes = { BIOLOGICAL LITHOID }
+
+	modifier = {
+		modifier_job_matches_preference = .1
+	}
+
+	opposites = {
+		"trait_intellectual_preference"
+		"trait_worker_preference"
+		"trait_spiritualist_preference"
+		"trait_administrator_preference"
+		"trait_military_specialist_preference"
+	}
+}
+
+trait_military_specialist_preference = {
+	cost = 1
+	allowed_archetypes = { BIOLOGICAL LITHOID }
+
+	modifier = {
+		modifier_job_matches_preference = .1
+	}
+
+	opposites = {
+		"trait_intellectual_preference"
+		"trait_worker_preference"
+		"trait_spiritualist_preference"
+		"trait_administrator_preference"
+		"trait_entertainer_preference"
+	}
+
+
+}
